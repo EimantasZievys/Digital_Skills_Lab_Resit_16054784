@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+ <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta charset="utf-8">
+    <meta name="keywords" content="eimantas,zievys,portfolio,digital,skills,HTML,CSS">
+    <meta name="author" content="Eimantas Zievys">
+    <meta name="description" content="A portfolio created by Eimantas Zievys for a course 'Digital Skills'">
+    <title>Meet Eimantas!</title>
+ </head>
+
+
+ <body>
+    <a name="top"></a>
+    <header>
+      <figure class="header">
+        <img src="images/header.png" alt="Eimantas">
+      </figure>
+      <h2> Meet me, a random Lithuanian guy who loves technology and coding! </h2>
+    </header>
+
+     <nav>
+       <ul id=navigation>
+         <li><a href=home.html>Home</a></li>
+         <li><a href=about.html>About Me</a></li>
+         <li><a href=skills.html>Programming Skills</a></li>
+         <li><a href=contact.html id="active">Contact</a></li>
+       </ul>
+     </nav>
+
+     <main>
+      <section>
+
+        <article id="contact">
+
+          <h1> Contact Form </h1>
+            <form id="contactForm" autocomplete="on" action="home.html" >
+              <fieldset>
+
+                <p>
+                  <label>Name:
+                    <input id="fullname" name="name" type="text" placeholder="Enter your name" autofocus required size="50">
+                  </label>
+                </p>
+
+                <p>
+                  <label>E-mail address:
+                    <input id="email" name="email" type="email" placeholder="Enter your email address" required size="50">
+                  </label>
+                </p>
+
+                <p>
+                  <label>Mobile number:
+                    <input id="telephone" name="telephone" type="tel" placeholder="Enter your mobile number" required size = "50">
+                  </label>
+                </p>
+
+                <p>
+                  <label>Why are you contacting me? 
+                    <input id="purpose" name="purpose" list="options" required size="50">
+                    <datalist id="options">
+                      <option value="I want to know more about you">
+                      <option value="I want to offer you a job">
+                      <option value="I want to grab a drink with you">
+                      <option value="Other">
+                    </datalist>
+                  </label>
+                </p>
+
+                <p>
+                  <label>Message:
+                    <input id="message" name="message" type="text" required size="50">
+                  </label>
+                </p>
+
+              </fieldset>
+              <input type="submit" value="Submit" />
+            </form>
+        </article>
+
+        <article>
+          <h1> Visit me ! </h1>
+          <br>
+          <iframe
+            width="600"
+            height="450"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDfg6ync1oZAtqDBj7AXF4WhzmD6H0D6Ns&q=Kritzingerstraat+75Q,DenHaag+Netherlands" allowfullscreen>
+          </iframe>
+        </article>
+
+          <div id="button">
+            <a href=#top> 
+              <figure>
+                <img src="images/button-back-to-top.png" id="button-image">
+              </figure>
+            </a>
+          </div>
+
+      </section>
+     </main>
+
+     <footer>
+       <p>®2017-2017 Eimantas Zievys All Rights Reserved </p>
+     </footer>
+
+ </body>
+</html>
